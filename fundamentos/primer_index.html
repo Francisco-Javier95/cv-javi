@@ -1,0 +1,86 @@
+<h1>Este es un titulo 1</h1>
+
+<!-- 
+    Estructura de una etiqueta HTML 
+    <equiqueta atributo="valor"> contenido </etiqueta>
+-->
+
+<!-- 
+Cuerpo de un documento HTML
+
+doctype (para versión del HTML)
+html
+    head
+        title
+        link
+    body    
+        h1
+        p (parráfo)
+        imagen
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            color: #005d13;
+            font-weight: bold;
+        }
+
+        .boton-alerta {
+            padding: 5px 8px;
+            background-color: #e91a0c;
+            color: aliceblue;
+            size: 8px;
+            border: 1;
+            border-color: #5d0600;
+            border-radius: 5px;
+            margin-top:15px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Etiquetas de contenido
+        h1 ... h6 para headings
+        p párrafos
+        input objetos de formularios
+        button
+        ul, ol, li para mostrar listas
+        img para imégenes
+        a para links
+        span para texto
+    -->
+
+    <!--
+        Etiquetas semanticas y para layouts
+        div
+        section
+        article
+        header
+        footer
+        main
+        aside
+    -->
+    <a href="">Ir a..</a> <br>
+
+    <img src="https://imgs.search.brave.com/P_vDUXE69tqD2H4kUjaugo5FITDey2uGo3-b4XIQvbs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FjLzQ4/LzVmL2FjNDg1ZjFm/NTZkYWJkNDM0YTZh/MmMwZGZlZTQ4MzA1/LmpwZw" alt="Vegetta777"> <br>
+
+    <input type="text" placeholder="Javi" maxlength="20"> <br>
+
+    <button class="boton-alerta" onclick="hello()">Haz click en mi!</button>
+
+    <script>
+        function hello(){
+            alert('Hola!!!')
+        }
+    </script>
+
+    <tag></tag>
+</body>
+</html>
